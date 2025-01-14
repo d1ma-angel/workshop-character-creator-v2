@@ -1,8 +1,8 @@
 .buttonRow {
-}
-
-.buttonRow::after {
-  content: '';
-  display: inline-block;
-  width: 24px;
+  overflow: auto;
+  white-space: nowrap;
+  margin-left: -22px;
+  margin-right: -22px;
+  margin-top: -22px;
+  padding: 22px;
 }
