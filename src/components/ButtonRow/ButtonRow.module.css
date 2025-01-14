@@ -1,2 +1,8 @@
 .buttonRow {
 }
+
+.buttonRow::after {
+  content: '';
+  display: inline-block;
+  width: 24px;
+}
